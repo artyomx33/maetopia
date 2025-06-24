@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles for Maetopia - Kid-friendly city builder */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  body {
+    @apply bg-blue-50 text-gray-800;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Larger, more readable buttons for kids */
+  button {
+    @apply rounded-lg px-4 py-2 transition-all duration-200;
+  }
+
+  /* Make sure canvas container is responsive */
+  .canvas-container {
+    @apply relative w-full max-w-screen-xl mx-auto;
+    aspect-ratio: 16 / 9;
+  }
+}
+
+/* Custom components for Maetopia */
+@layer components {
+  .icon-button {
+    @apply flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-md hover:shadow-lg transition-all duration-200 text-blue-600 hover:text-blue-800;
+  }
+
+  .storage-bar {
+    @apply flex overflow-x-auto p-2 bg-white/80 backdrop-blur-sm rounded-lg shadow-inner;
+    scrollbar-width: thin;
+    scrollbar-color: theme('colors.blue.400') theme('colors.blue.100');
+  }
+
+  .storage-bar::-webkit-scrollbar {
+    @apply h-2;
+  }
+
+  .storage-bar::-webkit-scrollbar-track {
+    @apply bg-blue-100 rounded-full;
+  }
+
+  .storage-bar::-webkit-scrollbar-thumb {
+    @apply bg-blue-400 rounded-full;
+  }
+
+  .tooltip {
+    @apply absolute invisible group-hover:visible bg-gray-800 text-white text-sm rounded py-1 px-2 bottom-full mb-2 left-1/2 transform -translate-x-1/2 whitespace-nowrap;
+  }
+}
