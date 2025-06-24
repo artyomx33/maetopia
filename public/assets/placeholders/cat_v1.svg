@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cat by Factory.ai for Maetopia - Kid-friendly city builder -->
+  
+  <!-- Cat Body -->
+  <ellipse 
+    cx="32" 
+    cy="42" 
+    rx="14" 
+    ry="8" 
+    fill="#A9A9A9" 
+    stroke="#333333" 
+    stroke-width="1.5"/>
+  
+  <!-- Cat Head -->
+  <circle 
+    cx="20" 
+    cy="36" 
+    r="9" 
+    fill="#A9A9A9" 
+    stroke="#333333" 
+    stroke-width="1.5"/>
+  
+  <!-- Cat Ears -->
+  <polygon 
+    points="15,30 12,22 18,26" 
+    fill="#A9A9A9" 
+    stroke="#333333" 
+    stroke-width="1.5"
+    stroke-linejoin="round"/>
+  
+  <polygon 
+    points="25,30 28,22 22,26" 
+    fill="#A9A9A9" 
+    stroke="#333333" 
+    stroke-width="1.5"
+    stroke-linejoin="round"/>
+  
+  <!-- Cat Inner Ears -->
+  <polygon 
+    points="15,29 13,24 17,27" 
+    fill="#FFC0CB" 
+    stroke-width="0"/>
+  
+  <polygon 
+    points="25,29 27,24 23,27" 
+    fill="#FFC0CB" 
+    stroke-width="0"/>
+  
+  <!-- Cat Eyes -->
+  <ellipse cx="17" cy="35" rx="1.5" ry="2.5" fill="#333333"/>
+  <ellipse cx="23" cy="35" rx="1.5" ry="2.5" fill="#333333"/>
+  
+  <!-- Cat Eye Shine -->
+  <circle cx="17.5" cy="34" r="0.6" fill="#FFFFFF"/>
+  <circle cx="23.5" cy="34" r="0.6" fill="#FFFFFF"/>
+  
+  <!-- Cat Nose -->
+  <polygon 
+    points="20,38 18.5,39.5 21.5,39.5" 
+    fill="#FFC0CB" 
+    stroke="#333333" 
+    stroke-width="0.5"
+    stroke-linejoin="round"/>
+  
+  <!-- Cat Mouth -->
+  <path 
+    d="M20,39.5 L20,40.5 M18,40 C19,41.5 21,41.5 22,40" 
+    stroke="#333333" 
+    stroke-width="0.7"
+    fill="none"
+    stroke-linecap="round"/>
+  
+  <!-- Cat Whiskers -->
+  <path 
+    d="M16,39 L10,38 M16,40 L10,40 M24,39 L30,38 M24,40 L30,40" 
+    stroke="#333333" 
+    stroke-width="0.7"
+    fill="none"
+    stroke-linecap="round"/>
+  
+  <!-- Cat Legs -->
+  <rect 
+    x="24" 
+    y="46" 
+    width="3" 
+    height="8" 
+    fill="#A9A9A9" 
+    stroke="#333333" 
+    stroke-width="1"
+    rx="1.5"/>
+  
+  <rect 
+    x="37" 
+    y="46" 
+    width="3" 
+    height="8" 
+    fill="#A9A9A9" 
+    stroke="#333333" 
+    stroke-width="1"
+    rx="1.5"/>
+  
+  <!-- Cat Tail -->
+  <path 
+    d="M45,42 C55,38 58,46 50,48" 
+    stroke="#A9A9A9" 
+    stroke-width="4"
+    stroke-linecap="round"
+    fill="none"/>
+  
+  <!-- Cat Collar -->
+  <path 
+    d="M16,42 C18,44 22,44 24,42" 
+    stroke="#6495ED" 
+    stroke-width="1.5"
+    fill="none"/>
+  
+  <!-- Collar Bell -->
+  <circle 
+    cx="20" 
+    cy="43" 
+    r="1.2" 
+    fill="#FFD700" 
+    stroke="#333333" 
+    stroke-width="0.5"/>
+</svg>

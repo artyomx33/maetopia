@@ -9,6 +9,8 @@ import {
   faQuestionCircle 
 } from '@fortawesome/free-solid-svg-icons'
 
+import CityBuilder from './components/CityBuilder'
+
 // Placeholder components - will be created in separate files later
 const Home = () => (
   <div className="flex items-center justify-center h-[calc(100vh-12rem)]">
@@ -16,14 +18,20 @@ const Home = () => (
       <h1 className="text-4xl font-bold text-blue-600 mb-4">Welcome to Maetopia!</h1>
       <p className="text-xl">A city builder made for Maelyn</p>
       <div className="mt-8 flex justify-center gap-4">
-        <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg text-xl">
+        <Link
+          to="/open"
+          className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg text-xl flex items-center"
+        >
           <FontAwesomeIcon icon={faFolderOpen} className="mr-2" />
           Open City
-        </button>
-        <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg text-xl">
+        </Link>
+        <Link
+          to="/build"
+          className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg text-xl flex items-center"
+        >
           <FontAwesomeIcon icon={faHome} className="mr-2" />
           New City
-        </button>
+        </Link>
       </div>
     </div>
   </div>
@@ -104,6 +112,7 @@ function App() {
             <Route path="/save" element={<div>Save City (Coming Soon)</div>} />
             <Route path="/open" element={<div>Open City (Coming Soon)</div>} />
             <Route path="/export" element={<div>Export Picture (Coming Soon)</div>} />
+            <Route path="/build" element={<CityBuilder />} />
           </Routes>
         </main>
         

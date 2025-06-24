@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dog by Factory.ai for Maetopia - Kid-friendly city builder -->
+  
+  <!-- Dog Body -->
+  <ellipse 
+    cx="32" 
+    cy="40" 
+    rx="16" 
+    ry="10" 
+    fill="#D2B48C" 
+    stroke="#333333" 
+    stroke-width="1.5"/>
+  
+  <!-- Dog Head -->
+  <circle 
+    cx="18" 
+    cy="34" 
+    r="10" 
+    fill="#D2B48C" 
+    stroke="#333333" 
+    stroke-width="1.5"/>
+  
+  <!-- Dog Ears -->
+  <ellipse 
+    cx="14" 
+    cy="26" 
+    rx="5" 
+    ry="6" 
+    fill="#C19A6B" 
+    stroke="#333333" 
+    stroke-width="1.5"
+    transform="rotate(-15, 14, 26)"/>
+  
+  <ellipse 
+    cx="22" 
+    cy="26" 
+    rx="5" 
+    ry="6" 
+    fill="#C19A6B" 
+    stroke="#333333" 
+    stroke-width="1.5"
+    transform="rotate(15, 22, 26)"/>
+  
+  <!-- Dog Eyes -->
+  <circle cx="15" cy="33" r="1.5" fill="#333333"/>
+  <circle cx="21" cy="33" r="1.5" fill="#333333"/>
+  
+  <!-- Dog Nose -->
+  <ellipse 
+    cx="18" 
+    cy="37" 
+    rx="3" 
+    ry="2" 
+    fill="#333333"/>
+  
+  <!-- Dog Mouth -->
+  <path 
+    d="M18,39 C16,41 20,41 18,39" 
+    stroke="#333333" 
+    stroke-width="1.5"
+    fill="none"
+    stroke-linecap="round"/>
+  
+  <!-- Dog Legs -->
+  <rect 
+    x="22" 
+    y="46" 
+    width="4" 
+    height="10" 
+    fill="#D2B48C" 
+    stroke="#333333" 
+    stroke-width="1.5"
+    rx="2"/>
+  
+  <rect 
+    x="38" 
+    y="46" 
+    width="4" 
+    height="10" 
+    fill="#D2B48C" 
+    stroke="#333333" 
+    stroke-width="1.5"
+    rx="2"/>
+  
+  <!-- Dog Tail -->
+  <path 
+    d="M48,40 C56,36 58,28 52,32" 
+    stroke="#333333" 
+    stroke-width="3"
+    stroke-linecap="round"
+    fill="none"/>
+  
+  <!-- Dog Collar -->
+  <path 
+    d="M14,38 C16,42 20,42 22,38" 
+    stroke="#FF5252" 
+    stroke-width="2"
+    fill="none"/>
+  
+  <!-- Collar Tag -->
+  <circle 
+    cx="18" 
+    cy="41" 
+    r="1.5" 
+    fill="#FFD700" 
+    stroke="#333333" 
+    stroke-width="0.5"/>
+</svg>

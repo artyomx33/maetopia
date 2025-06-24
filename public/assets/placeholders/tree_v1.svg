@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tree by Factory.ai for Maetopia - Kid-friendly city builder -->
+  
+  <!-- Tree Trunk -->
+  <rect 
+    x="26" 
+    y="36" 
+    width="12" 
+    height="24" 
+    fill="#8B4513" 
+    stroke="#333333" 
+    stroke-width="1.5" 
+    rx="2"/>
+  
+  <!-- Tree Leaves - Bottom Layer -->
+  <ellipse 
+    cx="32" 
+    cy="36" 
+    rx="20" 
+    ry="18" 
+    fill="#2E8B57" 
+    stroke="#333333" 
+    stroke-width="1.5"/>
+  
+  <!-- Tree Leaves - Middle Layer -->
+  <ellipse 
+    cx="32" 
+    cy="26" 
+    rx="16" 
+    ry="14" 
+    fill="#3CB371" 
+    stroke="#333333" 
+    stroke-width="1.5"/>
+  
+  <!-- Tree Leaves - Top Layer -->
+  <ellipse 
+    cx="32" 
+    cy="18" 
+    rx="12" 
+    ry="10" 
+    fill="#4CAF50" 
+    stroke="#333333" 
+    stroke-width="1.5"/>
+  
+  <!-- Little Details - Apples/Fruits -->
+  <circle cx="24" cy="30" r="2" fill="#FF6347" stroke="#333333" stroke-width="0.5"/>
+  <circle cx="40" cy="32" r="2" fill="#FF6347" stroke="#333333" stroke-width="0.5"/>
+  <circle cx="32" cy="22" r="2" fill="#FF6347" stroke="#333333" stroke-width="0.5"/>
+</svg>
